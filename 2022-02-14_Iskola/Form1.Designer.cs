@@ -70,6 +70,7 @@ namespace _2022_02_14_Iskola
             this.Controls.Add(this.btnTörlés);
             this.Name = "Form1";
             this.Text = "Iskola GUI";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
