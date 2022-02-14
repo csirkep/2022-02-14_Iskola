@@ -37,7 +37,7 @@ namespace _2022_02_14_Iskola
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 441);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Iskola GUI";
             this.ResumeLayout(false);
 
         }
