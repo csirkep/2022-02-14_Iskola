@@ -29,13 +29,45 @@ namespace _2022_02_14_Iskola
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnTörlés = new System.Windows.Forms.Button();
+            this.btnMentés = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // btnTörlés
+            // 
+            this.btnTörlés.Location = new System.Drawing.Point(30, 511);
+            this.btnTörlés.Name = "btnTörlés";
+            this.btnTörlés.Size = new System.Drawing.Size(75, 23);
+            this.btnTörlés.TabIndex = 0;
+            this.btnTörlés.Text = "Törlés\r\n\r\n";
+            this.btnTörlés.UseVisualStyleBackColor = true;
+            // 
+            // btnMentés
+            // 
+            this.btnMentés.Location = new System.Drawing.Point(201, 511);
+            this.btnMentés.Name = "btnMentés";
+            this.btnMentés.Size = new System.Drawing.Size(75, 23);
+            this.btnMentés.TabIndex = 1;
+            this.btnMentés.Text = "Mentés\r\n";
+            this.btnMentés.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(30, 28);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(246, 472);
+            this.listBox1.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 441);
+            this.ClientSize = new System.Drawing.Size(318, 553);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnMentés);
+            this.Controls.Add(this.btnTörlés);
             this.Name = "Form1";
             this.Text = "Iskola GUI";
             this.ResumeLayout(false);
@@ -43,6 +75,10 @@ namespace _2022_02_14_Iskola
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnTörlés;
+        private System.Windows.Forms.Button btnMentés;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 
